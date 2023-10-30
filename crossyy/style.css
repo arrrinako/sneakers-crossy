@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Anonymous Pro", Verdana,  sans-serif;
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro", Verdana,  sans-serif;
+  src: url(fonts/AnonymousPro-Regular.ttf);
+  font-weight: 700;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background: #F1F1F1;
+  height: 100%;
+  
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Шапка */
+.header{
+  width: 1641px;
+  height: 110px;
+  background-color: white;
+}
+.logo{
+  width: 212.34px;
+  height: 63.24px;
+  margin: 20px 170px ;
+  flex-shrink: 0;
+}
+.group_jpg{
+  float: right;
+  margin: 35px 290px ;
+  margin: 35px 290px ;
+}
+.media{
+  padding: 10px;
+}
+
+/* Основной контент */
+
+h1 {
+    font-family: "Anonymous Pro", Verdana,  sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 767px;
+  line-height: 100%;
+	font-size: 48px;
+  margin: 25px 394px 24px 20px;
+  width: 767px;
+}
+
+.container {
+	display: inline-block;
+	margin: 15px;
+  width: 371px;
+  background-color: white;
+  border-radius: 12px;
+  vertical-align: top;
+  padding: 24px;
+}
+
+.main{
+  margin-left: 150px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", Verdana,  sans-serif;
+	font-size: 26px;
+  width: 323px;
+  margin: 32px 24px 10px 24px;
+}
+
+p {
+  font-family: "Anonymous Pro", Verdana,  sans-serif;
+  font-size: 20px;
+  margin: 0px 24px 32px 24px;
+  
+}
+
+.container__image {
+  box-sizing: border-box;
+	width: 340px;
+  height: 254px;
+  border-radius: 12px 12px 0px 0px;
+}
+.startContanier{
+  Width:1,161px;
+}
+
+/* Футер */
+.footer{
+  display: inline-block;
+  width: 1641px;
+  height: 190px;
+  background-color: #121723;
+}
+.text_footer{
+  color: white;
+  margin: 35px 170px ;
+  font-size: 35px;
+  width: 450px;
+  font-weight:bold;
+ 
+}
+.group_png{
+  float: right;
+  margin: 35px 290px ;
+  width: 290px;
+
+}
+.media2{
+  padding: 10px;
+}
+hr{
+  margin-left: 170px;
+  margin-right: 290px;
+  height: 1px;
+  background: rgba(230, 232, 236, 0.40);
+  margin-bottom: 10px;
+
+}
+.text_end{
+  color: #A1A6B4;
+  font-family: "Anonymous Pro", Verdana,  sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  margin: 18px 499px 21px 477px;
+}
+.component{
+  display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+ul li{
+  display: inline;
+  list-style: none;
+}
